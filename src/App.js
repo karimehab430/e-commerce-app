@@ -13,8 +13,8 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/product/:id" element={<ProductDetails />} />
+          <Route basename path="/" element={<Home />} />
+          <Route basename path="/product/:id" element={<ProductDetails />} />
         </Routes>
         <Sidebar />
         <Footer />

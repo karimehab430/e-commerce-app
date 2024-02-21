@@ -10,7 +10,7 @@ const Hero = ({ onShopNowClick }) => {
       <div className="sm:hidden bg-gradient-to-r from-sky-500 to-indigo-500 w-full h-full absolute inset-0"></div>
       <img
         className="object-cover object-center w-full h-full hidden sm:block"
-        src="ezgif-4-4e9509957a.jpg"
+        src="public/ezgif-4-4e9509957a.jpg"
         alt="Hero Background"
       />
 
